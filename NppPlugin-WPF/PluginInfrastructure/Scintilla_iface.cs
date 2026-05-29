@@ -36,7 +36,7 @@ public struct ScNotificationHeader
     public nint IdFrom;
 
     /// <summary>
-    /// The SCN_* notification Code
+    /// The SCN_* notification Code. See <see cref="NppMsg"/> and <see cref="SciMsg"/>
     /// </summary>
     public uint Code;
 }
