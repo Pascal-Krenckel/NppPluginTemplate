@@ -12,8 +12,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "____NppPlugin____.plugin", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "___NppPlugin___.plugin", "NppPlugin-WinForms\___NppPlugin___.plugin.csproj", "{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadLibTest", "LoadLibTest\LoadLibTest.vcxproj", "{997B6A5A-4808-4413-AF3A-AE3FECE76874}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{A231653F-27A9-4759-8CC3-39188515E521}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe.md = ReadMe.md
@@ -43,14 +41,6 @@ Global
 		{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}.Release|x64.Build.0 = Release|x64
 		{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}.Release|x86.ActiveCfg = Release|x86
 		{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}.Release|x86.Build.0 = Release|x86
-		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Debug|x64.ActiveCfg = Debug|x64
-		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Debug|x64.Build.0 = Debug|x64
-		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Debug|x86.ActiveCfg = Debug|Win32
-		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Debug|x86.Build.0 = Debug|Win32
-		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Release|x64.ActiveCfg = Release|x64
-		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Release|x64.Build.0 = Release|x64
-		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Release|x86.ActiveCfg = Release|Win32
-		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
