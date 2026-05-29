@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    
+    "____NppPlugin____": {
+      "commandName": "Executable",
+      "executablePath": "$(NppDir)\\notepad++.exe"
+      
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata>
+		<id>Krenckel.NppPlugin</id>
+		<version>2.0.0</version>
+		<description>
+			Project templates for creating notepad++ plugins.
+		</description>
+		<authors>Pascal Krenckel</authors>
+		<license type="expression">Apache-2.0</license>
+		<packageTypes>
+			<packageType name="Template" />
+		</packageTypes>	
+		<icon>icon.png</icon>
+		<projectUrl>https://github.com/Pascal-Krenckel/NppPluginTemplate</projectUrl>
+		<repository type="git" url="https://github.com/Pascal-Krenckel/NppPluginTemplate" />
+		<tags>Notepad++ project template csharp</tags>
+		<readme>docs\README.md</readme>
+	</metadata>
+	<files>
+		<file src="NppPlugin*\**\*.*" exclude="NppPlugin*\**\bin\**\*.*;NppPlugin*\**\obj\**\*.*;NppPlugin*\**\.vs\**\*.*;" target="Content" />
+		<file src="icon.png" target=""/>
+		<file src="README.md" target="docs\" />
+	</files>
+</package>

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11822.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F98D7E5-2C69-43C1-99F7-34EC1ACC2855}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "____NppPlugin____.plugin", "NppPlugin-WPF\____NppPlugin____.plugin.csproj", "{30FBFE0F-3C86-4DC0-A471-941082AFEEA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "___NppPlugin___.plugin", "NppPlugin-WinForms\___NppPlugin___.plugin.csproj", "{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadLibTest", "LoadLibTest\LoadLibTest.vcxproj", "{997B6A5A-4808-4413-AF3A-AE3FECE76874}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{A231653F-27A9-4759-8CC3-39188515E521}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30FBFE0F-3C86-4DC0-A471-941082AFEEA1}.Debug|x64.ActiveCfg = Debug|x64
+		{30FBFE0F-3C86-4DC0-A471-941082AFEEA1}.Debug|x64.Build.0 = Debug|x64
+		{30FBFE0F-3C86-4DC0-A471-941082AFEEA1}.Debug|x86.ActiveCfg = Debug|x86
+		{30FBFE0F-3C86-4DC0-A471-941082AFEEA1}.Debug|x86.Build.0 = Debug|x86
+		{30FBFE0F-3C86-4DC0-A471-941082AFEEA1}.Release|x64.ActiveCfg = Release|x64
+		{30FBFE0F-3C86-4DC0-A471-941082AFEEA1}.Release|x64.Build.0 = Release|x64
+		{30FBFE0F-3C86-4DC0-A471-941082AFEEA1}.Release|x86.ActiveCfg = Release|x86
+		{30FBFE0F-3C86-4DC0-A471-941082AFEEA1}.Release|x86.Build.0 = Release|x86
+		{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}.Debug|x64.ActiveCfg = Debug|x64
+		{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}.Debug|x64.Build.0 = Debug|x64
+		{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}.Debug|x86.ActiveCfg = Debug|x86
+		{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}.Debug|x86.Build.0 = Debug|x86
+		{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}.Release|x64.ActiveCfg = Release|x64
+		{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}.Release|x64.Build.0 = Release|x64
+		{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}.Release|x86.ActiveCfg = Release|x86
+		{2C95C7FE-35E4-4A97-A4A9-4AB83F62E12C}.Release|x86.Build.0 = Release|x86
+		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Debug|x64.ActiveCfg = Debug|x64
+		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Debug|x64.Build.0 = Debug|x64
+		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Debug|x86.ActiveCfg = Debug|Win32
+		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Debug|x86.Build.0 = Debug|Win32
+		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Release|x64.ActiveCfg = Release|x64
+		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Release|x64.Build.0 = Release|x64
+		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Release|x86.ActiveCfg = Release|Win32
+		{997B6A5A-4808-4413-AF3A-AE3FECE76874}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A7FC7BE-9CCB-4BC6-A8DB-5D23A2E00FA9}
+	EndGlobalSection
+EndGlobal
