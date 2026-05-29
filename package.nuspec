@@ -4,7 +4,7 @@
 		<id>Krenckel.NppPlugin</id>
 		<version>2.0.0</version>
 		<description>
-			Project templates for creating notepad++ plugins.
+			A Visual Studio project template for building Notepad++ plugins in C# (.NET 6–9).
 		</description>
 		<authors>Pascal Krenckel</authors>
 		<license type="expression">Apache-2.0</license>
@@ -16,6 +16,7 @@
 		<repository type="git" url="https://github.com/Pascal-Krenckel/NppPluginTemplate" />
 		<tags>Notepad++ project template csharp</tags>
 		<readme>docs\README.md</readme>
+		<copyright>Copyright © Pascal Krenckel 2026</copyright> 
 	</metadata>
 	<files>
 		<file src="NppPlugin*\**\*.*" exclude="NppPlugin*\**\bin\**\*.*;NppPlugin*\**\obj\**\*.*;NppPlugin*\**\.vs\**\*.*;" target="Content" />
