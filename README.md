@@ -73,7 +73,7 @@ If you prefer to copy the files yourself, copy **all files** from the build outp
 | Portable edition | `<portable notepad++ directory>\plugins\YourPlugin\` |
 | Per-user / AppData | `%AppData%\Notepad++\plugins\YourPlugin\` |
 
-> **Note:** Writing to `%ProgramFiles%` requires administrator permissions. Either run the copy as an administrator, or point `NppDir.props` at a per-user installation instead.
+> **Note:** Writing to `%ProgramFiles%` requires administrator permissions. Either run the copy as an administrator (or VS), or point `NppDir.props` at a per-user installation instead.
 
 After copying, restart Notepad++. Your plugin will appear under the **Plugins** menu.
 
