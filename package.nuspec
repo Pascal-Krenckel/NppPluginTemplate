@@ -3,6 +3,9 @@
 	<metadata>
 		<id>Krenckel.NppPlugin</id>
 		<version>2.0.1</version>
+		<releaseNotes>
+			BugFix: Disabled template engines processing for #if for certain sections
+		</releaseNotes>
 		<description>
 			A Visual Studio project template for building Notepad++ plugins in C# (.NET 6–9).
 		</description>
