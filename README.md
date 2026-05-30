@@ -28,19 +28,22 @@ The template is based on [NotepadPlusPlusPluginPack.Net](https://github.com/kbil
 
 ## Installation
 
-Install the template from NuGet:
+Install the template from NuGet by running the following inside a VS Developer Command Prompt:
 
 ```
 dotnet new install Krenckel.NppPlugin
 ```
-
-Or install via the NuGet Package Manager in Visual Studio by searching for `Krenckel.NppPlugin`.
 
 Alternatively, clone this repository and run `pack.bat` to build the `.nupkg` locally, then install it:
 
 ```
 pack.bat
 dotnet new install ./Krenckel.NppPlugin.<version>.nupkg
+```
+
+Uninstall:
+```
+dotnet new uninstall Krenckel.NppPlugin
 ```
 
 ## Usage
