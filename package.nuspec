@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
 	<metadata>
 		<id>Krenckel.NppPlugin</id>
-		<version>2.0.0</version>
+		<version>2.0.1</version>
 		<description>
 			A Visual Studio project template for building Notepad++ plugins in C# (.NET 6–9).
 		</description>
