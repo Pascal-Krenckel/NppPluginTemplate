@@ -9,6 +9,16 @@ public partial class Win32
 
     private static partial class User32
     {
+        [StructLayout(LayoutKind.Sequential)]
+        internal struct Point(int x, int y)
+        {
+            public int x = x;
+            public int y = y;
+
+            public static implicit operator Point(System.Drawing.Point pt) => new(pt.X, pt.Y);
+            public static implicit operator System.Drawing.Point(Point pt) => new(pt.x, pt.y);
+        }
+//-:cnd:noEmit
 #if NET7_0_OR_GREATER
 
         //
@@ -110,16 +120,6 @@ public partial class Win32
             nint hWnd,
             ref Point lpPoint);
 
-        [StructLayout(LayoutKind.Sequential)]
-        internal struct Point(int x, int y)
-        {
-            public int x = x;
-            public int y = y;
-
-            public static implicit operator Point(System.Drawing.Point pt) => new(pt.X, pt.Y);
-            public static implicit operator System.Drawing.Point(Point pt) => new(pt.x, pt.y);
-        }
-
         [LibraryImport(nameof(User32))]
         internal static partial int GetScrollInfo(
             nint hwnd,
@@ -128,7 +128,7 @@ public partial class Win32
 
 #else
 
-    [DllImport(nameof(User32), EntryPoint = "SendMessageW")]
+        [DllImport(nameof(User32), EntryPoint = "SendMessageW")]
     internal static extern nint SendMessageW(
         nint hWnd,
         uint msg,
@@ -213,6 +213,7 @@ public partial class Win32
         ref ScrollInfo scrollInfo);
 
 #endif
+//+:cnd:noEmit
     }
 
     /// <summary>

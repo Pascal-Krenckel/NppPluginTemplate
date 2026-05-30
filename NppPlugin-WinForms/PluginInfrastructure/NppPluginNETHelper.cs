@@ -47,6 +47,7 @@ public partial class FuncItems : IDisposable
         _shortCutKeys = [];
     }
 
+    //-:cnd:noEmit
 #if NET7_0_OR_GREATER
     [LibraryImport("kernel32")]
     private static partial void RtlMoveMemory(nint Destination, nint Source, int Length);
@@ -54,6 +55,8 @@ public partial class FuncItems : IDisposable
     [DllImport("kernel32")]
     private static extern void RtlMoveMemory(nint Destination, nint Source, int Length);
 #endif
+    //+:cnd:noEmit
+
     public void Add(FuncItem funcItem)
     {
         int oldSize = Items.Count * _sizeFuncItem;
